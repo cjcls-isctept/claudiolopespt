@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/claudiolopespt/static/css/main.35c10048.chunk.css",
-    "main.js": "/claudiolopespt/static/js/main.abb31123.chunk.js",
-    "main.js.map": "/claudiolopespt/static/js/main.abb31123.chunk.js.map",
-    "runtime-main.js": "/claudiolopespt/static/js/runtime-main.a25ccf7b.js",
-    "runtime-main.js.map": "/claudiolopespt/static/js/runtime-main.a25ccf7b.js.map",
-    "static/css/2.a641e29a.chunk.css": "/claudiolopespt/static/css/2.a641e29a.chunk.css",
-    "static/js/2.46000b8a.chunk.js": "/claudiolopespt/static/js/2.46000b8a.chunk.js",
-    "static/js/2.46000b8a.chunk.js.map": "/claudiolopespt/static/js/2.46000b8a.chunk.js.map",
-    "index.html": "/claudiolopespt/index.html",
-    "precache-manifest.fd0823d1ce221e7505d6e9012c4278c7.js": "/claudiolopespt/precache-manifest.fd0823d1ce221e7505d6e9012c4278c7.js",
-    "service-worker.js": "/claudiolopespt/service-worker.js",
-    "static/css/2.a641e29a.chunk.css.map": "/claudiolopespt/static/css/2.a641e29a.chunk.css.map",
-    "static/css/main.35c10048.chunk.css.map": "/claudiolopespt/static/css/main.35c10048.chunk.css.map",
-    "static/js/2.46000b8a.chunk.js.LICENSE": "/claudiolopespt/static/js/2.46000b8a.chunk.js.LICENSE",
-    "static/media/App.css": "/claudiolopespt/static/media/effloresce.086cf1c0.ttf",
-    "static/media/logo.svg": "/claudiolopespt/static/media/logo.ee7cd8ed.svg"
+    "main.css": "/cjcls-isctept/claudiolopespt/static/css/main.39355019.chunk.css",
+    "main.js": "/cjcls-isctept/claudiolopespt/static/js/main.120eb2eb.chunk.js",
+    "main.js.map": "/cjcls-isctept/claudiolopespt/static/js/main.120eb2eb.chunk.js.map",
+    "runtime-main.js": "/cjcls-isctept/claudiolopespt/static/js/runtime-main.6b4d48e1.js",
+    "runtime-main.js.map": "/cjcls-isctept/claudiolopespt/static/js/runtime-main.6b4d48e1.js.map",
+    "static/css/2.a641e29a.chunk.css": "/cjcls-isctept/claudiolopespt/static/css/2.a641e29a.chunk.css",
+    "static/js/2.f68a6341.chunk.js": "/cjcls-isctept/claudiolopespt/static/js/2.f68a6341.chunk.js",
+    "static/js/2.f68a6341.chunk.js.map": "/cjcls-isctept/claudiolopespt/static/js/2.f68a6341.chunk.js.map",
+    "index.html": "/cjcls-isctept/claudiolopespt/index.html",
+    "precache-manifest.e529d48600d5d3e4128c3bc97cb7256d.js": "/cjcls-isctept/claudiolopespt/precache-manifest.e529d48600d5d3e4128c3bc97cb7256d.js",
+    "service-worker.js": "/cjcls-isctept/claudiolopespt/service-worker.js",
+    "static/css/2.a641e29a.chunk.css.map": "/cjcls-isctept/claudiolopespt/static/css/2.a641e29a.chunk.css.map",
+    "static/css/main.39355019.chunk.css.map": "/cjcls-isctept/claudiolopespt/static/css/main.39355019.chunk.css.map",
+    "static/js/2.f68a6341.chunk.js.LICENSE": "/cjcls-isctept/claudiolopespt/static/js/2.f68a6341.chunk.js.LICENSE",
+    "static/media/App.css": "/cjcls-isctept/claudiolopespt/static/media/effloresce.086cf1c0.ttf",
+    "static/media/logo.svg": "/cjcls-isctept/claudiolopespt/static/media/logo.ee7cd8ed.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a25ccf7b.js",
+    "static/js/runtime-main.6b4d48e1.js",
     "static/css/2.a641e29a.chunk.css",
-    "static/js/2.46000b8a.chunk.js",
-    "static/css/main.35c10048.chunk.css",
-    "static/js/main.abb31123.chunk.js"
+    "static/js/2.f68a6341.chunk.js",
+    "static/css/main.39355019.chunk.css",
+    "static/js/main.120eb2eb.chunk.js"
   ]
 }
