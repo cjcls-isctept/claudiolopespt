@@ -7,6 +7,8 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { Navbar, NavItem, Nav, Button } from "react-bootstrap";
+import Table from "react-bootstrap/Table";
+import ProgressBar from "react-bootstrap/ProgressBar";
 
 function App() {
   return (
@@ -63,7 +65,8 @@ function App() {
           <div className="row ">
             <div className="col-lg-12">
               <div className="title-body">
-                <a className="anchor" id="aboutMeAnchor"></a>
+                <a className="anchor" id="aboutMe"></a>
+
                 <h2>About Me</h2>
                 <p>
                   Graduated in <b>Computer Engineering</b> in 2017 and in the
@@ -167,7 +170,75 @@ function App() {
 
             <div className="col-md-6 col-sm-6">
               <div className="dom-list">
-                <h5>Software</h5>
+                <h5>Technical Skills</h5>
+                <table class="table">
+                  <tbody>
+                    <tr>
+                      <td>
+                        <h6>Outsystems</h6>
+                      </td>
+                      <td>
+                        <ProgressBar now={85} />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <h6>HTML</h6>
+                      </td>
+                      <td>
+                        <ProgressBar now={89} />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <h6>CSS</h6>
+                      </td>
+                      <td>
+                        <ProgressBar now={87} />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <h6>Java</h6>
+                      </td>
+                      <td>
+                        <ProgressBar now={70} />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <h6>Usability Testing</h6>
+                      </td>
+                      <td>
+                        <ProgressBar now={72} />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <h6>Human-Computer Interaction</h6>
+                      </td>
+                      <td>
+                        <ProgressBar now={72} />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <h6>Prototyping</h6>
+                      </td>
+                      <td>
+                        <ProgressBar now={70} />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <h6>Heuristic Evaluation</h6>
+                      </td>
+                      <td>
+                        <ProgressBar now={74} />
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
                 <div className="table-responsive"></div>
               </div>
             </div>
@@ -175,15 +246,121 @@ function App() {
           <div className="row rowSection">
             <div className="col-md-6 col-sm-6">
               <div className="dom-list">
-                <h5>Technical Skills</h5>
-                <div className="table-responsive"></div>
+                <h5>Software</h5>
+                <div className="table-responsive">
+                  <table className="table">
+                    <tbody>
+                      <tr>
+                        <td>
+                          <h6>Outsystems Service Studio</h6>
+                        </td>
+                        <td>
+                          <ProgressBar now={90} />
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <h6>Adobe Photoshop</h6>
+                        </td>
+                        <td>
+                          <ProgressBar now={80} />
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <h6>Adobe Ilustrator</h6>
+                        </td>
+                        <td>
+                          <ProgressBar now={65} />
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <h6>Adobe Xd</h6>
+                        </td>
+                        <td>
+                          <ProgressBar now={68} />
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <h6>Figma</h6>
+                        </td>
+                        <td>
+                          <ProgressBar now={64} />
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <h6>Balsamiq</h6>
+                        </td>
+                        <td>
+                          <ProgressBar now={81} />
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <h6>Eclipse</h6>
+                        </td>
+                        <td>
+                          <ProgressBar now={78} />
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <h6>Unity</h6>
+                        </td>
+                        <td>
+                          <ProgressBar now={64} />
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <h6>Android Studio</h6>
+                        </td>
+                        <td>
+                          <ProgressBar now={74} />
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
               </div>
             </div>
 
             <div className="col-md-6 col-sm-6">
               <div className="dom-list">
-                <h5>Software</h5>
-                <div className="table-responsive"></div>
+                <h5>Communication</h5>
+                <div className="table-responsive">
+                  <table class="table">
+                    <tbody>
+                      <tr>
+                        <td>
+                          <h6>Portuguese (Native)</h6>
+                        </td>
+                        <td>
+                          <ProgressBar now={100} />
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <h6>English (C1)</h6>
+                        </td>
+                        <td>
+                          <ProgressBar now={80} />
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <h6>Spanish (A2)</h6>
+                        </td>
+                        <td>
+                          <ProgressBar now={65} />
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
               </div>
             </div>
           </div>
@@ -194,7 +371,7 @@ function App() {
           <div className="row rowSection">
             <div className="col-lg-12">
               <div className="title-body">
-                <a className="anchor" id="workAnchor"></a>
+                <a className="anchor" id="work"></a>
                 <h2>Work</h2>
                 <p></p>
 

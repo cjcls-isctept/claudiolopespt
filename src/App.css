@@ -46,7 +46,7 @@
   --primary-color: #74d6a9 !important;
   --primary-color-dark: #198a55 !important;
   --secondary-color: #ffffff !important;
-  --primary-color-light: #fbfffd !important;
+  --primary-color-light: #eefff7 !important;
 }
 
 @font-face {
@@ -58,7 +58,6 @@
   font-family: "AdventProLight";
   src: url("fonts/AdventPro-Light.ttf");
 }
-
 
 @font-face {
   font-family: "BodoniXT";
@@ -74,7 +73,10 @@
   list-style: none;
   word-wrap: break-word;
 }
-html, body, #root, .App {
+html,
+body,
+#root,
+.App {
   height: 100%;
 }
 body {
@@ -87,7 +89,7 @@ body {
 }
 
 p {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 300;
   color: #7f7f7f;
   line-height: 1.6;
@@ -134,9 +136,9 @@ h6 {
   width: 50%;
 }
 
-
 .table thead th,
-.table td, .table th {
+.table td,
+.table th {
   vertical-align: middle;
   border-style: none;
   padding-top: 0.2rem;
@@ -165,12 +167,17 @@ a.anchor {
 }
 
 .vertical-timeline-element-content {
-  background: var(--primary-color-light) !important;
+  background: transparent;
   border-radius: 0px !important;
   box-shadow: 0 6px 0 var(--primary-color) !important;
 }
 .vertical-timeline::before {
   background: var(--primary-color);
+}
+.vertical-timeline-element-content:hover {
+  background: var(--primary-color-light);
+  border-radius: 0px !important;
+  box-shadow: 0 6px 0 var(--primary-color-dark) !important;
 }
 
 .rowSection {
@@ -231,7 +238,7 @@ html {
 	right: 0;
 }*/
 
-.icon{
+.icon {
   max-height: 15%;
   max-width: 15%;
   margin: 20px;
@@ -278,7 +285,6 @@ html {
 }
 /*end tooltip*/
 
-
 /*grid*/
 .grid-container {
   display: grid;
@@ -292,7 +298,6 @@ html {
 .item1 {
   vertical-align: middle;
 }
-
 
 .header-area {
   height: 100%;
@@ -485,11 +490,11 @@ html {
 .title-body {
 }
 .title-body h2 {
+  padding-bottom: 20px;
   font-size: 40px;
   color: var(--primary-color);
   font-family: "BodoniXT", sans-serif;
 }
-
 
 .aboutme-area {
   padding-top: 70px;
@@ -632,7 +637,6 @@ p.footer-company-name a:hover {
 
 .vertical-timeline::before {
   background: var(--primary-color) !important;
-  
 }
 
 .vertical-timeline-element-icon {
@@ -704,4 +708,3 @@ p.footer-company-name a:hover {
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 }
-
