@@ -586,9 +586,7 @@ function App() {
                   All Rights Reserved. &copy; 2020
                   <a href="#">Cláudio Lopes</a> Design By :
                   <a href="">Cláudio Lopes</a>
-                  <a href="https://www.linkedin.com/in/lopes-claudio/">
-                    LinkedIn
-                  </a>
+                  
                 </p>
               </div>
             </div>
