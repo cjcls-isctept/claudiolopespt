@@ -8,6 +8,7 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import { Navbar, NavItem, Nav, Button } from "react-bootstrap";
 import Table from "react-bootstrap/Table";
+import Tabs from "react-bootstrap/Tabs";
 import ProgressBar from "react-bootstrap/ProgressBar";
 
 function App() {
@@ -51,8 +52,7 @@ function App() {
 
               <h1>
                 My name is Cláudio and I'm an Outsystems Fullstack Developer
-                getting into the UX/UI environment, currently based in Lisbon,
-                Portugal.
+                with experience in UX/UI, currently based in Lisbon, Portugal.
               </h1>
               <h1>This is my website!</h1>
             </div>
@@ -71,17 +71,17 @@ function App() {
                 <p>
                   Graduated in <b>Computer Engineering</b> in 2017 and in the
                   process of finishing a Master's Degree in <b>Multimedia</b>.
-                  Designated by ISCTE as <b>ISTA Top Talent</b> in the 2018. I
-                  see myself as a
-                  <b>collaborative, easy to work with and efficient</b>{" "}
+                  Designated by ISCTE as <b>ISTA Top Talent</b> in 2018. I see
+                  myself as a
+                  <b> collaborative, easy to work with and efficient </b>
                   co-worker, who can get along very well and work in teams.
                   Always looking to
-                  <b>learn and improve</b> by absorving knowledge from everyone
+                  <b> learn and improve</b> by absorving knowledge from everyone
                   I get along with. Discovered the world of
-                  <b>User Experience</b> in the later days of my Bachelor's
-                  Degree and since then I've been aiming to enter into this
-                  universe. Always enjoyed{" "}
-                  <b>analysing the user and its interactions</b> in every
+                  <b> User Experience</b> in the later days of my Bachelor's
+                  Degree and since then I've been aiming to gain more experience
+                  in this universe. Always enjoyed
+                  <b> analysing the user and its interactions</b> in every
                   project I'm in. Currently employed as an Outsystems, Front-end
                   focused, Fullstack developer for CGI since March, 2019.
                 </p>
@@ -374,113 +374,136 @@ function App() {
                 <a className="anchor" id="work"></a>
                 <h2>Work</h2>
                 <p></p>
-
                 <div>
-                  <VerticalTimeline>
-                    <VerticalTimelineElement
-                      className="vertical-timeline-element--work"
-                      date="12/2019 - present"
-                    >
+                  <VerticalTimeline layout={"1-column"}>
+                    <VerticalTimelineElement className="vertical-timeline-element--work">
                       <h3 className="vertical-timeline-element-title">
-                        claudiolopes.pt : My own domain!
+                        Personal
                       </h3>
-                      <p>My personal domain with projects and information</p>
-                      <p>HTML, CSS, JavaScript, React</p>
-                      <p>Currently in development</p>
+                      <div className="subTimeline">
+                        <VerticalTimeline layout={"1-column"}>
+                          <VerticalTimelineElement
+                            className="vertical-timeline-element--work"
+                            date="12/2019 - present"
+                          >
+                            <h3 className="vertical-timeline-element-title">
+                              claudiolopes.pt : My own domain!
+                            </h3>
+                            <p>
+                              My personal domain with projects and information
+                            </p>
+                            <p>HTML, CSS, JavaScript, React</p>
+                            <p>Currently in development</p>
+                          </VerticalTimelineElement>
+                        </VerticalTimeline>
+                      </div>
                     </VerticalTimelineElement>
 
-                    <VerticalTimelineElement
-                      className="vertical-timeline-element--work"
-                      date="08/2019 - present"
-                    >
-                      <h3 className="vertical-timeline-element-title">
-                        Outsystems: EDPSU MerCom
-                      </h3>
-                      <h4 className="vertical-timeline-element-subtitle">
-                        CGI, Lisbon
-                      </h4>
-                      <p>
-                        Communication and case management for contact center
-                      </p>
-                      <p>Elitricity Market Values Manager</p>
-                      <p>Outsystems Service Studio, CSS, SQL</p>
-                      {/* A JSX comment 
-            <div>
-              <ModalCompnt ref={this.showModalRef}></ModalCompnt>
-              <a onClick={this.onShowModalClick}>Detalhes</a>
-            </div>*/}
+                    <VerticalTimelineElement className="vertical-timeline-element--work">
+                      <h3 className="vertical-timeline-element-title">CGI</h3>
+                      <div className="subTimeline">
+                        <VerticalTimeline layout={"1-column"}>
+                          <VerticalTimelineElement
+                            className="vertical-timeline-element--work"
+                            date="08/2019 - present"
+                          >
+                            <h3 className="vertical-timeline-element-title">
+                              Outsystems: EDPSU MerCom
+                            </h3>
+                            <h4 className="vertical-timeline-element-subtitle">
+                              CGI, Lisbon
+                            </h4>
+                            <p>
+                              Communication and case management for contact
+                              center
+                            </p>
+                            <p>Elitricity Market Values Manager</p>
+                            <p>Outsystems Service Studio, CSS, SQL</p>
+                          </VerticalTimelineElement>
+
+                          <VerticalTimelineElement
+                            className="vertical-timeline-element--work"
+                            date="04/2019 - 08/2019"
+                          >
+                            <h3 className="vertical-timeline-element-title">
+                              Outsystems: EDP Collect
+                            </h3>
+                            <h4 className="vertical-timeline-element-subtitle">
+                              CGI, Lisbon
+                            </h4>
+                            <p>Billing/payments manager</p>
+                            <p>Elitricity Market Values Manager</p>
+                            <p>Outsystems Service Studio, CSS, SQL</p>
+                          </VerticalTimelineElement>
+                        </VerticalTimeline>
+                      </div>
                     </VerticalTimelineElement>
 
-                    <VerticalTimelineElement
-                      className="vertical-timeline-element--work"
-                      date="04/2019 - 08/2019"
-                    >
+                    <VerticalTimelineElement className="vertical-timeline-element--work">
                       <h3 className="vertical-timeline-element-title">
-                        Outsystems: EDP Collect
+                        ISCTE-IUL
                       </h3>
-                      <h4 className="vertical-timeline-element-subtitle">
-                        CGI, Lisbon
-                      </h4>
-                      <p>Billing/payments manager</p>
-                      <p>Elitricity Market Values Manager</p>
-                      <p>Outsystems Service Studio, CSS, SQL</p>
-                    </VerticalTimelineElement>
+                      <div className="subTimeline">
+                        <VerticalTimeline layout={"1-column"}>
+                          <VerticalTimelineElement
+                            className="vertical-timeline-element--work"
+                            date="09/2018 - 12/2018"
+                          >
+                            <h3 className="vertical-timeline-element-title">
+                              Media Center Concept
+                            </h3>
+                            <h4 className="vertical-timeline-element-subtitle">
+                              ISCTE-IUL, Lisbon
+                            </h4>
+                            <p>3D Moddeling and printing </p>
+                            <p>Usabitlity testing</p>
+                            <p>User studying and targeting</p>
+                            <p>Low-Fy approach</p>
+                            <p>
+                              Solid Edge, Photoshop, Nielsen Heuristic, Adobe
+                              XD,{" "}
+                            </p>
+                          </VerticalTimelineElement>
 
-                    <VerticalTimelineElement
-                      className="vertical-timeline-element--work"
-                      date="09/2018 - 12/2018"
-                    >
-                      <h3 className="vertical-timeline-element-title">
-                        Media Center Concept
-                      </h3>
-                      <h4 className="vertical-timeline-element-subtitle">
-                        ISCTE-IUL, Lisbon
-                      </h4>
-                      <p>3D Moddeling and printing </p>
-                      <p>Usabitlity testing</p>
-                      <p>User studying and targeting</p>
-                      <p>Low-Fy approach</p>
-                      <p>
-                        Solid Edge, Photoshop, Nielsen Heuristic, Adobe XD,{" "}
-                      </p>
-                    </VerticalTimelineElement>
+                          <VerticalTimelineElement
+                            className="vertical-timeline-element--work"
+                            date="09/2018 - 12/2018"
+                          >
+                            <h3 className="vertical-timeline-element-title">
+                              Multi and Singleplayer Question Game
+                            </h3>
+                            <h4 className="vertical-timeline-element-subtitle">
+                              ISCTE-IUL, Lisbon
+                            </h4>
+                            <p>Android</p>
+                            <p>Java</p>
+                            <p>Photoshop</p>
+                            <p>Adobe XD</p>
+                            <p>Firebase</p>
+                          </VerticalTimelineElement>
 
-                    <VerticalTimelineElement
-                      className="vertical-timeline-element--work"
-                      date="09/2018 - 12/2018"
-                    >
-                      <h3 className="vertical-timeline-element-title">
-                        Multi and Singleplayer Question Game
-                      </h3>
-                      <h4 className="vertical-timeline-element-subtitle">
-                        ISCTE-IUL, Lisbon
-                      </h4>
-                      <p>Android</p>
-                      <p>Java</p>
-                      <p>Photoshop</p>
-                      <p>Adobe XD</p>
-                      <p>Firebase</p>
-                    </VerticalTimelineElement>
-
-                    <VerticalTimelineElement
-                      className="vertical-timeline-element--work"
-                      date="09/2017 - 12/2017"
-                    >
-                      <h3 className="vertical-timeline-element-title">
-                        'Reddit-like' website
-                      </h3>
-                      <h4 className="vertical-timeline-element-subtitle">
-                        ISCTE-IUL, Lisbon
-                      </h4>
-                      <p>HTML & CSS</p>
-                      <p>Python</p>
-                      <p>Balsamiq</p>
-                      <p>JavaScript</p>
-                      <p>
-                        Image, Video and/or text Posts, with accounts, comments
-                        and upvotes
-                      </p>
-                      <div id="modalComp"></div>
+                          <VerticalTimelineElement
+                            className="vertical-timeline-element--work"
+                            date="09/2017 - 12/2017"
+                          >
+                            <h3 className="vertical-timeline-element-title">
+                              'Reddit-like' website
+                            </h3>
+                            <h4 className="vertical-timeline-element-subtitle">
+                              ISCTE-IUL, Lisbon
+                            </h4>
+                            <p>HTML & CSS</p>
+                            <p>Python</p>
+                            <p>Balsamiq</p>
+                            <p>JavaScript</p>
+                            <p>
+                              Image, Video and/or text Posts, with accounts,
+                              comments and upvotes
+                            </p>
+                            <div id="modalComp"></div>
+                          </VerticalTimelineElement>
+                        </VerticalTimeline>
+                      </div>
                     </VerticalTimelineElement>
                   </VerticalTimeline>
                 </div>
@@ -514,7 +537,7 @@ function App() {
                         data-toggle="tooltip"
                         title="Download My Portfolio"
                         src="./files/portfolioCover.png"
-                        className="icon"
+                        className="icon image-cropper"
                       ></img>
                     </a>
                   </div>
@@ -523,7 +546,7 @@ function App() {
                       <img
                         data-toggle="tooltip"
                         title="Check My LinkedIn"
-                        src="./files/linkedin.png"
+                        src="./files/linkedin_round.png"
                         className="icon"
                       ></img>
                     </a>
@@ -552,9 +575,9 @@ function App() {
           <div className="row ">
             <div className="col-md-12">
               <div className="footer-content text-center">
-                <a href="#">
-                  Cláudio <span>Lopes</span>
-                </a>
+                <div>
+                  <img src="./files/icon_w.png" className="logo"></img>
+                </div>
                 <ul className="list-inline">
                   <li className="list-inline-item">
                     <a href="#">
@@ -584,9 +607,8 @@ function App() {
                 </ul>
                 <p className="footer-company-name">
                   All Rights Reserved. &copy; 2020
-                  <a href="#">Cláudio Lopes</a> Design By :
-                  <a href="">Cláudio Lopes</a>
-                  
+                  <a href="#"> Cláudio Lopes </a> Design By :
+                  <a href=""> Cláudio Lopes </a>
                 </p>
               </div>
             </div>
