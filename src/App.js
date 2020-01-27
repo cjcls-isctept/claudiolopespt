@@ -95,28 +95,33 @@ function App() {
             <div className="col-md-6 col-sm-6">
               <div className="dom-list">
                 <h4>Education</h4>
+
                 <h5>ISCTE-Instituto Universitário de Lisboa</h5>
-                <h6>Bachelor's Degree in Computer Engineering 2014-2017</h6>
-                <h6>
-                  Master's Degree in Multimedia Applied to Computer Engineering
-                  2017-(to be completed)
-                </h6>
-                <h6>
-                  Postgraduate in Multimedia Applied to Computer Engineering
-                  (2017-2018)
-                </h6>
-                <h6>
-                  ISTA Top Talent 2018 - Student of Merit in the Academic Year
-                  of 2017-18
-                </h6>
+                <div className="detail">
+                  <h6>Bachelor's Degree in Computer Engineering 2014-2017</h6>
+                  <h6>
+                    Master's Degree in Multimedia Applied to Computer
+                    Engineering 2017-(to be completed)
+                  </h6>
+                  <h6>
+                    Postgraduate in Multimedia Applied to Computer Engineering
+                    (2017-2018)
+                  </h6>
+                  <h6>
+                    ISTA Top Talent 2018 - Student of Merit in the Academic Year
+                    of 2017-18
+                  </h6>
+                </div>
               </div>
             </div>
             <div className="col-md-6 col-sm-6">
               <div className="dom-list">
                 <h4>Work</h4>
                 <h5>CGI</h5>
-                <h6>Outsystems Consultant</h6>
-                <h6>March, 2019 - Present</h6>
+                <div className="detail">
+                  <h6>Outsystems Consultant</h6>
+                  <h6>March, 2019 - Present</h6>
+                </div>
               </div>
             </div>
           </div>
@@ -144,17 +149,7 @@ function App() {
                       </tr>
                       <tr>
                         <td>
-                          <h6>Motivation</h6>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
                           <h6>Proactivity</h6>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <h6>Autonomy</h6>
                         </td>
                       </tr>
                       <tr>
@@ -167,7 +162,43 @@ function App() {
                 </div>
               </div>
             </div>
-
+            <div className="col-md-6 col-sm-6">
+              <div className="dom-list">
+                <h5>Communication</h5>
+                <div className="table-responsive">
+                  <table class="table">
+                    <tbody>
+                      <tr>
+                        <td>
+                          <h6>Portuguese (Native)</h6>
+                        </td>
+                        <td>
+                          <ProgressBar now={100} />
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <h6>English (C1)</h6>
+                        </td>
+                        <td>
+                          <ProgressBar now={80} />
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <h6>Spanish (A2)</h6>
+                        </td>
+                        <td>
+                          <ProgressBar now={65} />
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row rowSection">
             <div className="col-md-6 col-sm-6">
               <div className="dom-list">
                 <h5>Technical Skills</h5>
@@ -195,6 +226,14 @@ function App() {
                       </td>
                       <td>
                         <ProgressBar now={87} />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <h6>JavaScript</h6>
+                      </td>
+                      <td>
+                        <ProgressBar now={68} />
                       </td>
                     </tr>
                     <tr>
@@ -242,8 +281,6 @@ function App() {
                 <div className="table-responsive"></div>
               </div>
             </div>
-          </div>
-          <div className="row rowSection">
             <div className="col-md-6 col-sm-6">
               <div className="dom-list">
                 <h5>Software</h5>
@@ -279,7 +316,7 @@ function App() {
                           <h6>Adobe Xd</h6>
                         </td>
                         <td>
-                          <ProgressBar now={68} />
+                          <ProgressBar now={62} />
                         </td>
                       </tr>
                       <tr>
@@ -300,7 +337,7 @@ function App() {
                       </tr>
                       <tr>
                         <td>
-                          <h6>Eclipse</h6>
+                          <h6>Visual Studio Code</h6>
                         </td>
                         <td>
                           <ProgressBar now={78} />
@@ -320,42 +357,6 @@ function App() {
                         </td>
                         <td>
                           <ProgressBar now={74} />
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-md-6 col-sm-6">
-              <div className="dom-list">
-                <h5>Communication</h5>
-                <div className="table-responsive">
-                  <table class="table">
-                    <tbody>
-                      <tr>
-                        <td>
-                          <h6>Portuguese (Native)</h6>
-                        </td>
-                        <td>
-                          <ProgressBar now={100} />
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <h6>English (C1)</h6>
-                        </td>
-                        <td>
-                          <ProgressBar now={80} />
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <h6>Spanish (A2)</h6>
-                        </td>
-                        <td>
-                          <ProgressBar now={65} />
                         </td>
                       </tr>
                     </tbody>
@@ -410,9 +411,6 @@ function App() {
                             <h3 className="vertical-timeline-element-title">
                               Outsystems: EDPSU MerCom
                             </h3>
-                            <h4 className="vertical-timeline-element-subtitle">
-                              CGI, Lisbon
-                            </h4>
                             <p>
                               Communication and case management for contact
                               center
@@ -452,9 +450,6 @@ function App() {
                             <h3 className="vertical-timeline-element-title">
                               Media Center Concept
                             </h3>
-                            <h4 className="vertical-timeline-element-subtitle">
-                              ISCTE-IUL, Lisbon
-                            </h4>
                             <p>3D Moddeling and printing </p>
                             <p>Usabitlity testing</p>
                             <p>User studying and targeting</p>
@@ -472,9 +467,6 @@ function App() {
                             <h3 className="vertical-timeline-element-title">
                               Multi and Singleplayer Question Game
                             </h3>
-                            <h4 className="vertical-timeline-element-subtitle">
-                              ISCTE-IUL, Lisbon
-                            </h4>
                             <p>Android</p>
                             <p>Java</p>
                             <p>Photoshop</p>
@@ -489,9 +481,6 @@ function App() {
                             <h3 className="vertical-timeline-element-title">
                               'Reddit-like' website
                             </h3>
-                            <h4 className="vertical-timeline-element-subtitle">
-                              ISCTE-IUL, Lisbon
-                            </h4>
                             <p>HTML & CSS</p>
                             <p>Python</p>
                             <p>Balsamiq</p>
@@ -606,8 +595,8 @@ function App() {
                   </li>
                 </ul>
                 <p className="footer-company-name">
-                  All Rights Reserved. &copy; 2020
-                  <a href="#"> Cláudio Lopes </a> Design By :
+                  All Rights Reserved. &copy; 2020{" "}
+                  <a href="#"> Cláudio Lopes </a> Design By:{" "}
                   <a href=""> Cláudio Lopes </a>
                 </p>
               </div>
