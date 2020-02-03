@@ -47,6 +47,7 @@
   --primary-color-dark: #198a55 !important;
   --secondary-color: #ffffff !important;
   --primary-color-light: #eefff7 !important;
+  --h6-text-color: #7f7f7f !important;
 }
 
 @font-face {
@@ -91,7 +92,7 @@ body {
 p {
   font-size: 18px;
   font-weight: 300;
-  color: #7f7f7f;
+  color: var(--h6-text-color);
   line-height: 1.6;
   margin: 0;
   text-align: justify;
@@ -125,7 +126,7 @@ h6 {
   font-family: "RawengulkSans", sans-serif;
   font-size: 15px;
   font-weight: 300;
-  color: #7f7f7f;
+  color: var(--h6-text-color);
   line-height: 1.6;
   margin: 0;
   text-align: justify;
@@ -476,7 +477,7 @@ html {
 }
 
 .submit-button button {
-  background: #ffffff;
+  background: var(--secondary-color);
 }
 
 .with-errors ul li {
@@ -490,7 +491,7 @@ html {
   vertical-align: middle;
 }
 .inner-content h1 {
-  color: #ffffff;
+  color: var(--secondary-color);
   margin: 0px;
   font-size: 35px;
   padding-bottom: 20px;
@@ -503,7 +504,7 @@ html {
   font-size: 58px;
 }
 .inner-content p {
-  color: #ffffff;
+  color: var(--secondary-color);
   font-size: 20px;
   margin-bottom: 30px;
 }
@@ -627,7 +628,7 @@ html {
 
 .dom-list {
   /*box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);*/
-  background: #ffffff;
+  background: var(--secondary-color);
   margin-bottom: 30px;
   padding: 10px;
   /*text-align: center;*/
@@ -667,10 +668,10 @@ footer {
   font-family: "BodoniXT", sans-serif;
 }
 .footer-content a span {
-  color: #ffffff;
+  color: var(--secondary-color);
 }
 .footer-content li a {
-  color: #ffffff;
+  color: var(--secondary-color);
   font-size: 22px;
   margin: 15px 15px;
 }
@@ -683,7 +684,7 @@ footer {
 }
 
 p.footer-company-name a {
-  color: #ffffff;
+  color: var(--secondary-color);
   font-size: 14px;
   font-weight: 300;
 }

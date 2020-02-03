@@ -94,6 +94,16 @@ function App() {
           <div className="row rowSection">
             <div className="col-md-6 col-sm-6">
               <div className="dom-list">
+                <h4>Work</h4>
+                <h5>CGI</h5>
+                <div className="detail">
+                  <h6>Outsystems Consultant</h6>
+                  <h6>March, 2019 - Present</h6>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6 col-sm-6">
+              <div className="dom-list">
                 <h4>Education</h4>
 
                 <h5>ISCTE-Instituto Universitário de Lisboa</h5>
@@ -111,16 +121,6 @@ function App() {
                     ISTA Top Talent 2018 - Student of Merit in the Academic Year
                     of 2017-18
                   </h6>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6 col-sm-6">
-              <div className="dom-list">
-                <h4>Work</h4>
-                <h5>CGI</h5>
-                <div className="detail">
-                  <h6>Outsystems Consultant</h6>
-                  <h6>March, 2019 - Present</h6>
                 </div>
               </div>
             </div>
@@ -401,7 +401,9 @@ function App() {
                     </VerticalTimelineElement>
 
                     <VerticalTimelineElement className="vertical-timeline-element--work">
-                      <h3 className="vertical-timeline-element-title">CGI</h3>
+                      <h3 className="vertical-timeline-element-title">
+                        CGI, Lisbon
+                      </h3>
                       <div className="subTimeline">
                         <VerticalTimeline layout={"1-column"}>
                           <VerticalTimelineElement
@@ -426,9 +428,6 @@ function App() {
                             <h3 className="vertical-timeline-element-title">
                               Outsystems: EDP Collect
                             </h3>
-                            <h4 className="vertical-timeline-element-subtitle">
-                              CGI, Lisbon
-                            </h4>
                             <p>Billing/payments manager</p>
                             <p>Elitricity Market Values Manager</p>
                             <p>Outsystems Service Studio, CSS, SQL</p>
@@ -521,6 +520,7 @@ function App() {
                   className="grid-container"
                 >
                   <div className="item1">
+                    <h4>Portfolio</h4>
                     <a href="./files/PortfolioClaudioLopes.pdf" download>
                       <img
                         data-toggle="tooltip"
@@ -531,6 +531,7 @@ function App() {
                     </a>
                   </div>
                   <div className="item1">
+                    <h4>Linkedin</h4>
                     <a href="https://www.linkedin.com/in/lopes-claudio/">
                       <img
                         data-toggle="tooltip"
@@ -541,6 +542,7 @@ function App() {
                     </a>
                   </div>
                   <div className="item1">
+                    <h4>GitHub</h4>
                     <div>
                       <a href="https://github.com/cjcls-isctept/">
                         <img
